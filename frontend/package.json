@@ -1,0 +1,38 @@
+{
+	"name": "earning.farm",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "NODE_ENV=test vue-cli-service serve",
+		"build:prod": "NODE_ENV=production vue-cli-service build",
+		"build:test": "NODE_ENV=test vue-cli-service build"
+	},
+	"dependencies": {
+		"@shapeshiftoss/proto-tx-builder": "^0.2.0",
+		"axios": "^0.21.1",
+		"bignumber.js": "^9.0.1",
+		"bnc-onboard": "1.32.0",
+		"core-js": "^3.6.5",
+		"dayjs": "^1.10.4",
+		"echarts": "^5.0.0",
+		"element-ui": "^2.14.1",
+		"vue": "^2.6.11",
+		"vue-qr": "^2.3.0",
+		"vue-router": "^3.2.0",
+		"vuex": "^3.6.2",
+		"web3": "^1.7.3"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-plugin-vuex": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"compression-webpack-plugin": "^1.1.12",
+		"eslint": "^6.7.2",
+		"node-sass": "^5.0.0",
+		"sass-loader": "^10.1.0",
+		"svg-sprite-loader": "^6.0.9",
+		"terser-webpack-plugin": "^4.2.3",
+		"vue-template-compiler": "^2.6.11"
+	}
+}

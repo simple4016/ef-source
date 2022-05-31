@@ -1,0 +1,32 @@
+[
+	{
+		"inputs": [{ "type": "uint256", "name": "_amount" }],
+		"constant": false,
+		"name": "deposit",
+		"outputs": [],
+		"stateMutability": "payable",
+		"payable": true,
+		"type": "function"
+	},
+	{
+		"inputs": [{ "type": "uint256", "name": "_amount" }],
+		"constant": false,
+		"name": "depositStable",
+		"outputs": [],
+		"stateMutability": "payable",
+		"payable": true,
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{ "type": "uint256", "name": "_amount" },
+			{ "type": "bool", "name": "_use_stable" }
+		],
+		"constant": false,
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"payable": false,
+		"type": "function"
+	}
+]

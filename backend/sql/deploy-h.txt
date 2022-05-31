@@ -1,0 +1,29 @@
+earningfarm_mheth
+earningfarm_mhusdc
+
+一
+数据库名称：earningfarm_mhusdc
+nginx 端口8280 映射/mhusdc
+日志目录logs/mhusdc
+
+启动脚本修改以下参数
+-Dcff_name=USDC
+-Drisk_type=1
+-Dvalue_type=1
+-Dserver.servlet.context-path=/mhusdc
+-Dnet_work=mainnet
+-Dsubscription.service.url=10.10.10.72:8180
+
+
+二
+数据库名称：earningfarm_mheth
+nginx 端口8380 映射/mheth
+日志目录logs/mheth
+
+启动脚本修改以下参数
+-Dcff_name=ETH
+-Drisk_type=1
+-Dserver.servlet.context-path=/mheth
+-Dnet_work=mainnet
+-Dorigin_ration=1000000
+-Dsubscription.service.url=10.10.10.72:8180

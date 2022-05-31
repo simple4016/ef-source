@@ -1,0 +1,35 @@
+[
+	{
+		"inputs": [{ "type": "address", "name": "account" }],
+		"constant": true,
+		"name": "balanceOf",
+		"outputs": [{ "type": "uint256", "name": "" }],
+		"stateMutability": "view",
+		"payable": false,
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{ "type": "address", "name": "owner" },
+			{ "type": "address", "name": "spender" }
+		],
+		"constant": true,
+		"name": "allowance",
+		"outputs": [{ "type": "uint256", "name": "" }],
+		"stateMutability": "view",
+		"payable": false,
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{ "type": "address", "name": "spender" },
+			{ "type": "uint256", "name": "amount" }
+		],
+		"constant": false,
+		"name": "approve",
+		"outputs": [{ "type": "bool", "name": "" }],
+		"stateMutability": "nonpayable",
+		"payable": false,
+		"type": "function"
+	}
+]
