@@ -1,0 +1,25 @@
+version: "3.2"
+services:
+  cff-backend-v2:
+    build: .
+    restart: always
+    ports:
+     - "6012:6011"
+    volumes:
+     - .:/code
+    depends_on:
+     - "mysql-v2"
+    expose:
+     - "6011"
+  mysql-v2:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: cff-v2
+      MYSQL_ROOT_PASSWORD: cffmysql
+      MYSQL_ROOT_HOST: mysql-v2
+      MYSQL_USER: cff
+      MYSQL_PASSWORD: cffmysql
+    ports:
+      - "3308:3306"
+    volumes:
+      - "./mysql_data/data:/var/lib/mysql"

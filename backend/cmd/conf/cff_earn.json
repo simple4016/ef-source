@@ -1,0 +1,13 @@
+{
+  "host":"ropsten",
+  "project_id":"0ade24290ecf4d7b9eb6c682d32c3f5e",
+  "op_type":"call",
+  "sender":"0xf4267391072B27D76Ed8f2A9655BCf5246013F2d",
+  "gas_limit":500000,
+  "tx_value":0,
+  "contract_address":"0x1390F0e1329012C9378d26e00E4e06f2e88715e3",
+  "contract_name": "CFController",
+  "func_name":"earnCRV",
+  "func_args":{
+  }
+}

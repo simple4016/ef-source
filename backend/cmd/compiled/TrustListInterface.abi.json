@@ -1,0 +1,1 @@
+[{"inputs": [{"type": "address", "name": "addr"}], "constant": false, "name": "is_trusted", "outputs": [{"type": "bool", "name": ""}], "stateMutability": "nonpayable", "payable": false, "type": "function"}]

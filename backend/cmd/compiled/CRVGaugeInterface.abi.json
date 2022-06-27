@@ -1,0 +1,1 @@
+[{"inputs": [{"type": "uint256", "name": "_value"}], "constant": false, "name": "deposit", "outputs": [], "stateMutability": "nonpayable", "payable": false, "type": "function"}, {"inputs": [{"type": "uint256", "name": "_value"}], "constant": false, "name": "withdraw", "outputs": [], "stateMutability": "nonpayable", "payable": false, "type": "function"}]

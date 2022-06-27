@@ -1,0 +1,15 @@
+{
+  "host":"ropsten",
+  "project_id":"2844af81af6f43f8b073211be98b97e2",
+  "op_type":"call_and_send",
+  "keystore_path":"../offline/keystore/f4267391072b27d76ed8f2a9655bcf5246013f2d.json",
+  "sender":"0xf4267391072B27D76Ed8f2A9655BCf5246013F2d",
+  "gas_limit":500000,
+  "tx_value":0,
+  "contract_address":"0xece7949dC9Ec6eCD8aC65cb240D9bD1b6508cF1d",
+  "contract_name":"CFVault",
+  "func_name":"deposit",
+  "func_args":{
+    "_amount":10000000000
+  }
+}

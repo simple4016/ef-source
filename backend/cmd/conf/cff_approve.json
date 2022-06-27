@@ -1,0 +1,16 @@
+{
+  "host":"ropsten",
+  "project_id":"2844af81af6f43f8b073211be98b97e2",
+  "op_type":"call_and_send",
+  "keystore_path":"../offline/keystore/f4267391072b27d76ed8f2a9655bcf5246013f2d.json",
+  "sender":"0xf4267391072B27D76Ed8f2A9655BCf5246013F2d",
+  "gas_limit":500000,
+  "tx_value":0,
+  "contract_address":"0xF5FC4B459a00fb926F60F926F8C454Ed39134c09",
+  "contract_name":"IERC20",
+  "func_name":"approve",
+  "func_args":{
+    "spender":"0x6BEcEFb45cb2DC6013b6f0EB68AEad4390f1F548",
+    "amount": 10000000000000000000
+  }
+}
